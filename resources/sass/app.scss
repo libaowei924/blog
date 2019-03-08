@@ -1,0 +1,30 @@
+//semantic
+@import '../semantic/semantic.min.css';
+.ui {
+    //头像控制
+    #tx {
+        margin-right: 0rem;margin-left: 1rem;
+    }
+    .tx {
+        margin: 10px 0px;
+    }
+    //昵称
+    .nc {
+        padding: 22px;
+    }
+    //边栏图标
+    .bl_ioc {
+        margin: 0px 0px 15px 19px;
+        .icon {
+            margin-right: 0px;
+        }
+    }
+}
+
+//显示文章页面
+#article {
+    padding-right: 272px;
+    .like {
+        position: absolute;right: 272px;top: 15px;
+    }
+}
