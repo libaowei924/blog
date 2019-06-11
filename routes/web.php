@@ -24,3 +24,5 @@ Route::get('create/article','ArticleController@create_show')->name('create.artic
 Route::post('create/article','ArticleController@create')->name('create.article');
 //密码生成器
 Route::get('password','PassWordController@index')->name('password');
+//获取当前所在城市名称
+Route::get('city','CityController@index')->name('city');

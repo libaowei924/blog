@@ -13,8 +13,8 @@
     <button class="ui circular key icon button bl_ioc">
          <a href="{{ route('password') }}" target="_black"><i class="key icon"></i></a>
     </button>
-    <button class="ui circular github icon button bl_ioc">
-        空
+    <button class="ui circular building outline icon button bl_ioc">
+         <a href="{{ route('city') }}" target="_black"><i class="building outline icon"></i></a>
     </button>
     <button class="ui circular github icon button bl_ioc">
         空
