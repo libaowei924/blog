@@ -4,7 +4,7 @@
 <div class="pusher">
     <form class="ui form" action="{{ route('create.article') }}" method="POST" enctype="multipart/form-data">
         @csrf
-        <h4 class="ui dividing header">创建文章</h4>
+        <h4 class="ui dividing header" id="cjwz">创建文章</h4>
 
         <div class="field">
             <label>标题</label>
