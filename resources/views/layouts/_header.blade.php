@@ -10,8 +10,8 @@
     <button class="ui circular github icon button bl_ioc">
         <a href="https://github.com/libaowei924/blog" target="_black"><i class="github icon"></i></a>
     </button>
-    <button class="ui circular key icon button bl_ioc">
-         <a href="{{ route('password') }}" target="_black"><i class="key icon"></i></a>
+    <button class="ui circular github icon button bl_ioc">
+        空
     </button>
     <button class="ui circular building outline icon button bl_ioc">
          <a href="{{ route('city') }}" target="_black"><i class="building outline icon"></i></a>

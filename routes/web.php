@@ -22,7 +22,10 @@ Route::put('praise','ArticleController@praise')->name('praise');
 Route::get('create/article','ArticleController@create_show')->name('create.article');
 //处理请求
 Route::post('create/article','ArticleController@create')->name('create.article');
+<<<<<<< HEAD
 //密码生成器
 Route::get('password','PassWordController@index')->name('password');
 //获取当前所在城市名称
 Route::get('city','CityController@index')->name('city');
+=======
+>>>>>>> parent of 1dadc94... 统一
